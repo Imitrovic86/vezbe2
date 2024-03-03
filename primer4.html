@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer4</title>
+    <style>
+        #display {
+            background-color: rgb(0,0,0);
+            border: 1px solid black;
+            width:  200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <p>R: <input type="number" id="r" min="0" max="255" value="0"/></p>
+    <p>G: <input type="number" id="g" min="0" max="255" value="0"/></p>
+    <p>B: <input type="number" id="b" min="0" max="255" value="0"/></p>
+    <p><button type="button" id="show">Show</button></p>
+    <div id="display"></div>
+    <p><button type="button" id="default">Default values</button></p>
+    <script src="./primer4.js"></script>
+</body>
+</html>

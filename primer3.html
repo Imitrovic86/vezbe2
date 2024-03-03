@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer3</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Unesite novcanu vrednost:</td>
+            <td colspan="3"><input type="number" id="vrednost"></td>
+        </tr>
+        <td>Valuta iz:</td>
+        <td>
+            <select id="valuta_iz">
+                <option disabled selected>--Izbor--</option>
+                <option value="rsd">Dinari</option>
+                <option value="eur">Evri</option>
+                <option value="usd">Americki dolar</option>
+                <option value="gbr">Britanska funta</option>
+            </select>
+
+        </td>
+        <tr>
+            <td>u</td>
+
+            <td>
+                <select id="valuta_u">
+                    <option value="" disabled selected>--Izbor--</option>
+                    <option value="rsd">Dinari</option>
+                    <option value="eur">Evri</option>
+                    <option value="usd">Americki dolar</option>
+                    <option value="gbr">Britanska funta</option>
+                </select>
+
+            </td>
+        
+            <td></td>
+            <td colspan="3">
+                <button type="button" id="konvertuj">Konvertuj</button>
+            </td>
+
+        </tr>
+    </table>
+    <script src="./primer3.js"></script>
+
+</body>
+
+</html>
